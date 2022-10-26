@@ -8,11 +8,18 @@
         align-items: center;
         justify-content: space-between;
 
+        @media screen and (max-width:376px) {
+            padding-right: 10px;
+           }
+
         .navbar__container__title {
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             color: #292C3B;
+            @media screen and (max-width:426px) {
+                margin-left: 10px;
+            }
         }
 
         .navbar__container__account {

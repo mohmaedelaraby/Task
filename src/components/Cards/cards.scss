@@ -31,6 +31,9 @@
                 color: #256EFF;
                 padding-right: 7px;
                 cursor: pointer;
+                @media screen and (max-width:321px) {
+                   font-size: 10px;
+                   }
             }
         }
 
@@ -48,6 +51,14 @@
         margin-bottom: 26px;
         row-gap: 24px;
         column-gap: 32px;
+
+        
+        @media screen and (max-width:768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media screen and (max-width:426px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 }
 
@@ -168,6 +179,10 @@
                 margin-left: 13px;
                 width: fit-content;
 
+                @media screen and (max-width:768px) {
+                   margin-left: 0;
+                }
+
                 &.graybg {
                     background-color: #F6F6F6;
                     border-radius: 4px;
@@ -204,6 +219,9 @@
 
                     color: #424242;
                     padding-left: 4px;
+                    @media screen and (max-width:321px) {
+                        font-size: 10px;
+                        }
                 }
             }
         }
