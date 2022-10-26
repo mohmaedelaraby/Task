@@ -1,0 +1,79 @@
+.sidebar{
+    min-height: 100vh;
+    height: 100%;
+    background-color:  #F6F6F6;
+    width: 20%;
+   
+    .sidebar__container{
+        padding-top: 20px;
+        .sidebar__logo{
+            padding-bottom: 80px;
+            padding-left: 33px;
+            .sidebar__logo__img{
+                height: 30px;
+            }
+        }
+        .sidebar__items{
+            .sidebar__items__container{
+                cursor: pointer;
+                .sidebar__items__container__item{
+                    
+                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding: 6px 0px;
+                    margin-bottom: 16px;
+                   &:not(.active){
+                    &::before{
+                        display: block;
+                        content: "";
+                        border-right: 4px solid #F6F6F6;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        height: 46px;
+                        margin: 0px;
+                        padding: 0px;
+                       
+                    }
+                   }
+                    
+
+                   .active{
+                   margin: 0px;
+                padding: 0px 0px !important;
+                    &::before{
+                        display: block;
+                        content: "";
+                        border-right: 4px solid #256EFF;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        height: 46px;
+                        margin: 0px;
+                        padding: 0px;
+                       
+                    }
+                 
+                   }
+                    
+                    .sidebar__items__container__item__icon{
+                        flex: 1;
+                        padding-left: 30px;
+                        .sidebar__items__container__item__icon__img{
+                            height: 28px;
+                            width: 28px;
+                        }
+
+                    }
+                    .sidebar__items__container__item__text{
+                        flex: 4;
+                        font-size: 16px;
+                        font-weight: 300;
+                        color: #424242;
+                      
+                    }
+                }
+            }
+        }
+    }
+}

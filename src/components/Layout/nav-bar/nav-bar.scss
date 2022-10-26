@@ -1,0 +1,63 @@
+.navbar {
+    border-bottom: 1px solid #F6F6F6;
+
+    .navbar__container {
+        padding: 15.5px 36px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        .navbar__container__title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #292C3B;
+        }
+
+        .navbar__container__account {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .navbar__container__account__pp {
+                width: 29px;
+                height: 29px;
+            }
+
+            .navbar__container__account__info {
+                padding-left: 10px;
+
+                .navbar__container__account__info__header {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 9px;
+                    color: #424242;
+                }
+
+                .navbar__container__account__info__title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .navbar__container__account__info__title__text {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #424242;
+                    }
+
+                    .navbar__container__account__info__title__icon {
+                        padding-left: 7px;
+                        cursor: pointer;
+                        .navbar__container__account__info__title__icon__img {
+                            width: 14px;
+                            height: 14px;
+                            padding-bottom: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

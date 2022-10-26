@@ -1,0 +1,42 @@
+.page_content{
+    width: 100%;
+    .page_content_navbar{
+      
+    }
+    .page_content_body{
+       margin-top: 77px;
+       margin-right: 36px;
+       margin-left: 36px;
+        .list-of-items{
+           width: 100%;
+            .list-of-items__container{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .list-of-items__container__item{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #424242;
+                    transition: 0.2s ease-in all;
+                    border-bottom: 2px solid white;
+                    margin-right: 17px;
+                  
+                    cursor: pointer;
+                 /*    &:hover{
+                       
+                        transition: 0.2s ease-in all;
+                    } */
+
+                    &.active{
+                        color: #256EFF;
+                        border-bottom: 2px solid #256EFF;
+                    }
+                }
+            }
+        }
+        .page_content_body__search{
+            margin-top: 46px;
+        }
+    }
+}
