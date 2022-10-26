@@ -7,13 +7,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCeydXKJTUnFHBWr30el6ZcZTrE-DQjPdM",
-  authDomain: "gameball-task.firebaseapp.com",
-  projectId: "gameball-task",
-  storageBucket: "gameball-task.appspot.com",
-  messagingSenderId: "258007510455",
-  appId: "1:258007510455:web:4701058c69d6e0dc448c32",
-  measurementId: "G-0HZMG8PY7M"
+  apiKey: "AIzaSyCAnqe2LnGz96-Gz87WnWHZkvYHIzVTCg0",
+  authDomain: "gameball-task-ui.firebaseapp.com",
+  projectId: "gameball-task-ui",
+  storageBucket: "gameball-task-ui.appspot.com",
+  messagingSenderId: "8827561697",
+  appId: "1:8827561697:web:696db17524e692b08779a0",
+  measurementId: "G-NL3Z715F9Z"
 };
 
 // Initialize Firebase
