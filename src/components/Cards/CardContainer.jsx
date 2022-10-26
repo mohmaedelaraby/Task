@@ -9,7 +9,7 @@ function CardContainer() {
     <div className="cards__container">
         <div className="cards__container__header">
 
-            <div className="cards__container__header__left"> 4 Challenges </div>
+            <div className="cards__container__header__left"> {cardsItems.length} Challenges </div>
 
             <div className="cards__container__header__right">
                 <span className='cards__container__header__right__text'> Create New Challenge </span>
@@ -19,7 +19,7 @@ function CardContainer() {
         </div>
         <div className="cards__container__body">
           {cardsItems.map((item,i)=>(
-            <CardComponent card={item} key={i}/>
+            <CardComponent card={item} key={i} animation="fade-up" />
           ))
             
           }

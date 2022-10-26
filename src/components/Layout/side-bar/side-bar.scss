@@ -11,6 +11,7 @@
             padding-left: 33px;
             .sidebar__logo__img{
                 height: 30px;
+                cursor: pointer;
             }
         }
         .sidebar__items{
@@ -36,7 +37,25 @@
                         padding: 0px;
                        
                     }
+                    &:hover{
+                        &::before{
+                            display: block;
+                            content: "";
+                            border-right: 4px solid #9cbbfa;
+                            border-top-right-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            height: 46px;
+                            margin: 0px;
+                            padding: 0px;
+                           
+                        }
+                    }
+
                    }
+
+
+
+                  
 
                   
                     

@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import image from '../../assets/images/mushroom.svg'
+import Aos from "aos";
+import "aos/dist/aos.css"
 
-function CardComponent({ card }) {
+function CardComponent({ card , animation}) {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
     return (
-        <div className="card">
+        <div className="card" data-aos={animation}>
+           
             <div className="card__container">
+
+            <div className="card__active" >
+            <span className={card.isActive? 'card__active__activestatus':'card__active__activestatus notactive'}>{card.isActive?'ACTIVE':' INACTIVE'}</span>
+            <div className={card.isActive?'card__active__icon':'card__notactive__icon'}></div>
+            </div>
+            
                 <div className="card__container__header">
 
                     <img src={image} alt="mushroom" className='card__container__header__img' />

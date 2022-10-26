@@ -41,6 +41,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:true,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -65,6 +66,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:false,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -89,6 +91,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:true,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -113,6 +116,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:true,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -137,6 +141,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:false,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -161,6 +166,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:true,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -185,6 +191,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:false,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -209,6 +216,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:false,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -233,6 +241,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:true,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -257,6 +266,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:true,
         listOfIcons: [
             {
                 Icon: diamond,
@@ -281,6 +291,7 @@ export const cardsItems = [
         title: "Click & Collect",
         date: "12/12/2018 at 13:00",
         content: "It is a long established fact that a reader will be distracted by the readable eye.",
+        isActive:true,
         listOfIcons: [
             {
                 Icon: diamond,
