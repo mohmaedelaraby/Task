@@ -42,16 +42,20 @@
 
         grid-auto-rows: auto;
 
-        grid-gap: 1rem;
+       
     }
 }
 
 
 .card {
     width: 93%;
+    margin-bottom: 24px;
 
     .card__container {
-        padding: 24px;
+       padding-top: 24px;
+       padding-right: 16px;
+       padding-bottom: 13px;
+       padding-left: 24px;
 
         .card__container__header {
             display: flex;
@@ -101,12 +105,14 @@
 
             grid-auto-rows: auto;
 
-            grid-gap: 1rem;
+          
 
             .card__container__icons__item {
                 display: flex;
                 align-items: center;
-
+                margin-bottom: 11px;
+                margin-left: 13px;
+                width: fit-content;
 
                 &.graybg{
                     background-color: #F6F6F6;
