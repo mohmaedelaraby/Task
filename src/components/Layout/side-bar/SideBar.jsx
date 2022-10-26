@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './side-bar.scss'
 import logo from '../../../assets/images/logo.svg'
 import menu from '../../../assets/images/menu.svg'
 import cancel from '../../../assets/images/cancel-circle.svg'
 import { sidebarItems } from '../../../Data'
+import useWindowDimensions from '../../../CustomHook'
 
 
 
@@ -13,37 +14,7 @@ function SideBar() {
     const [selected, setSelected] = useState(false);
     const [openSidebar, setopenSidebar] = useState(0);
 
-
-    function useWindowDimensions() {
-
-        const hasWindow = typeof window !== 'undefined';
-
-        function getWindowDimensions() {
-            const width = hasWindow ? window.innerWidth : null;
-            const height = hasWindow ? window.innerHeight : null;
-            return {
-                width,
-                height,
-            };
-        }
-
-        const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-
-        useEffect(() => {
-            if (hasWindow) {
-                function handleResize() {
-                    setWindowDimensions(getWindowDimensions());
-                }
-
-                window.addEventListener('resize', handleResize);
-                return () => window.removeEventListener('resize', handleResize);
-            }
-        }, [hasWindow]);
-
-        return windowDimensions;
-    }
-
-    const { height, width } = useWindowDimensions();
+    const { width } = useWindowDimensions();
     return (
         <>
 

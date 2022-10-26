@@ -7,12 +7,6 @@ import './home.scss'
 function Home() {
   return (
     <>
-    {/* <div className="container-fluid ">
-      <div className="row">
-        <div className="col-lg-3">    <SideBar/></div>
-        <div className="col-lg-9">   <Navbar></Navbar></div>
-      </div>
-    </div> */}
 
     <div className="homepage">
     <SideBar/>
