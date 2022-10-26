@@ -22,7 +22,7 @@ function Search() {
 
                 <div className="search__container__filters__item">
                     <div className="search__container__filters__item__icon">
-                       <img src={filter2} alt="filter" srcset="" />
+                       <img src={filter2} alt="filter" />
                     </div>
                     <div className="search__container__filters__item__text">Sort</div>
                     <div className="search__container__filters__item__down">

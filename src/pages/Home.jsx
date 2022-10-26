@@ -17,7 +17,6 @@ function Home() {
     <div className="homepage">
     <SideBar/>
     <PageContent/>
-    
  
     </div>
 

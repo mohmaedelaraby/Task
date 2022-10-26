@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { pageItemsHorz } from '../../Data'
+import CardContainer from '../Cards/CardContainer'
 import Navbar from '../Layout/nav-bar/Navbar'
 import Search from '../Search/Search'
 import './page-content.scss'
@@ -25,6 +26,11 @@ function PageContent() {
           </div>
           <div className="page_content_body__search">
             <Search />
+          </div>
+
+          
+          <div className="page_content_body__cards">
+            <CardContainer/>
           </div>
         </div>
 
